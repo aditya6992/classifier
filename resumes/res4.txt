@@ -1,0 +1,111 @@
+
+RESUME                         
+                                        
+Pooja Arakeri
+E-mail:  HYPERLINK "mailto:pooja.3450@gmail.com" pooja.3450@gmail.com
+Phone no: 9538590591
+
+Career Objective:	
+                    
+To perceive a career in a professional organization that offers opportunities to learn, achieve and contribute towards the organizational goals by utilizing my skill sets and determination to grow as a qualified technical person in the field of Information Technology.
+
+Education Qualification:
+
+Qualification
+College
+University
+Year of Passing
+Percentage
+
+MCA
+
+Sri Jayachamarajendra College of Engineering , Mysore.
+
+VTU Belgaum
+2013
+85.50
+
+BCA
+
+KLE’s G.I. Bagewadi B.C.A College,  Nippani.
+Karnataka University
+2010
+
+82.46
+
+
+12th
+
+JSSB PU College, Dharwar.
+Karnataka Board
+2007
+55
+
+10th
+
+B.S. Comp. Jr. College,  Bedkihal.
+Karnataka Board
+2005
+83.52
+
+
+Technical Skills:
+
+Programming languages: C, C++, Data Structure, Core JAVA , DBMS.
+Web design Language    :  HTML
+Database System             :  Oracle
+Operating System           :  Windows XP
+
+
+Projects :
+
+MCA Project:
+“Net Banking”, as a final year project of MCA, using JAVA and Apache tomcat server.
+In this Net Banking System we have to facilitate to the all banks customers account holders to all transactions should be done in online also, as well as some more features added like, those are all banks information like various interest rates, Deposit rates, credit/debit cards information, vehicle loans, Home loans, online internet banking facility, demat account details, currency converter and share values. In this project 3 modules are played major role. Those are Admin, Bank and User. This project was developed in java programming language & Oracle 8i is the back end server to store all banking details, customer details, admin details, JavaScript and Html are used for basic front end web designing.
+“Shot Boundary Detection Using Motion Activity Descriptor” project using matlab:
+             This project detects a shot boundary by making use of motion activity descriptor. Motion activity descriptor detects the shot boundary by using macroblocks and adaptive rood pattern search algorithm.Different types of shot  boundaries are detected, like fade in, fade out, dissolve and hard cuts, analyzed for the correctness.   
+“Virtual Desktop E-learning” project using JAVA and Apache tomcat server.
+
+BCA Project:
+“Web’s Eye”, as a final year project of BCA, using JAVA and HTML.
+Web’s Eye is software to develop web pages .Many people is aware of world wide web and web pages, but not even capable of dreaming a web page design. The Web’s Eye is a user friendly software which will assist you in designing a web page and putting your creative ideas in the web to change you really professional in the World’s Eyes. Suppose if you are a professional Web’s Eye will show a different face as an intelligent colleague to navigate you. Web’s Eye uses Java @ Platform to develop an extra featured user friendly software for creating web pages. Web page code generation is done in HTML. The strong graphical user interface which is the unique property of this project helps to distribute the tags intelligently . The project mainly aims at simplifying user effort for creating a web page.
+
+Personal Profile:
+
+Effective Team member.
+Great eagerness to learn.
+Hard working.
+Self adapting capability.
+
+       
+Curricular Activities :
+
+Active member of MCA students welfare club and volunteer of ‘Infotsav’ event.
+Participated in IT Fest conducted by RLS College, Belgaum.
+Participated in athletics and got prize in many events.
+Got appreciation in drawing and quiz competition.
+
+
+ Personal Profile :
+
+Date Of Birth                     : 18th July 1989
+Interests                             : Collecting key chains, Drawing and Painting.                                                                              
+Languages Known            : English, Hindi, Kannada and Marathi.
+Permanent Address          : D/O  N. L. Arakeri
+                                                            Post : Bedkihal - 591214
+                                                            Tal : Chikkodi
+                                                            Dist : Belgaum	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

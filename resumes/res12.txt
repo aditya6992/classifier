@@ -1,0 +1,176 @@
+RAGINI CHAURASIA
+ Star Premier – I, C-702, Annapurna Estate, Phase – V, Indralok, 
+Bhayander (E), Mumbai, Maharashtra - 401105
+Contact: +91 9967350253 
+Email:  HYPERLINK "mailto:chaurasia.ragini@gmail.com" chaurasia.ragini@gmail.com
+
+COMPUTER SCIENCE ENGINEER
+
+To utilize my core technical knowledge and unleash my potential as a solution finder for individual and organizational growth.
+
+
+PROFESSIONAL EXPERIENCE
+
+Organization
+
+Society for Applied Microwave Electronic Engineering & Research
+IIT Bombay campus Powai, Mumbai, Maharashtra – 400076
+
+Aug. 2013 – Till Now
+
+Project Title
+Record & Verification for Medical System Development 
+Designation (Role)
+Senior Research Scientist (Application Developer)
+Platform/Tools
+C, C++, STL, VC++, MFC, MS SQL SEVER
+Microsoft Visual studio, Dicompyler, C++ & DICOM Development Medical System
+Synopsis
+To develop Record and verify system software which facilitating many technological advancements, treatment innovations and ensure the accuracy and safety of patient treatments.
+_________________________________________________________________________________________
+
+Organization
+Indian Institute of Technology, Bombay
+Powai, Mumbai, Maharashtra – 400076
+(Project undertaken in the Department of Electrical Engineering)
+
+Mar. 2012 – Dec. 2012
+
+Project Title
+National Program for Technology Enhanced Learning (NPTEL II)
+Designation (Role)
+Research Assistant (Web Designer)
+Platform/Tools
+Adobe Dreamweaver CS3, Adobe Photoshop CS4,
+Adobe Flash CS4 Professional, CSS, HTML
+Synopsis
+The project is basically the designing of the course content provided by the faculty using the above mentioned tools for presenting the course material as a reference on the NPTEL website.
+____________________________________________________________________________________________________________
+
+Organization
+Indian Institute of Technology, Bombay
+Powai, Mumbai, Maharashtra – 400076
+(Project undertaken in the Center of Studies in Resources Engineering)
+
+Jan. 2011 – Mar. 2012
+
+Project Title
+Development  of land parameter Retrieval techniques & tool for polarimetric SAR Data Analysis
+Designation (Role)
+Junior Research Fellow (Programmer)
+Platform/Tools
+C, C++ , Microsoft Visual C++ 6.0
+VC++.Net (MFC Application)
+Polsarpro and ENVI software for comparing the images and testing the image pixel values
+Synopsis
+The project is mainly based on satellite Image Processing where we Utilize the satellite data of any format (like .xml ,.led , .cos, .tiff, .bmp etc) provided to us .Then we apply the pre-defined algorithm for processing the image data to extract the relevant information and create another new (Processed) image by using the same.
+                        These are having a wide range of application like Agriculture Monitoring, Aquaculture Mapping, Digital Elevation Model, Flood Mapping, Snow Mapping etc
+
+
+
+EDUCATIONAL CREDENTIALS
+
+Degree/Qualification
+Specialization
+University/Board
+Percentage of Marks
+Year of Passing
+B.E.
+Computer science  & Engineering
+UIT, Barkatullah University
+Bhopal (M.P.)
+8.05(CGPA)
+2010
+H.S.C. [Class XIIth]
+
+Board of sec. Education Bhopal
+86.4 %
+2006
+S.S.C. [Class Xth]
+
+Board of sec. Education Bhopal
+79.9%
+2004
+
+
+
+TECHNICAL SKILLS
+Languages
+C,  C++, STL,VC++ .Net (MFC Application)
+VB.Net,  C#.Net,  Asp.Net
+Database
+DBMS ,Basic Knowledge of  SQL Server
+Others Knowledge
+Data Structure, Operating System
+Adobe Dreamweaver, Adobe Photoshop, Adobe Flash 
+Basic knowledge of Python and Latex
+	
+
+SUMMER TRAINING
+
+Title
+. NET
+Institute
+Zenith InfoTech Bhopal
+
+Title
+Computer Networking
+Institute
+FOCUS Education & Consultancy Service Limited Bhopal
+
+
+PROJECTS UNDERTAKEN
+
+Title
+ONLINE CINEMA TICKET BOOKING
+Front end
+Asp.Net
+Back end
+MS – Access
+Synopsis
+To facilitate an Online Ticket Booking System, develop software that can save precious time while utilizing less no of manpower. Cinemas can also exploit the data in deep to keep track on 	bookings             & taking important decisions that can finally generate a more profitable system as compared to earlier one.
+
+Title
+LIBRARY MANAGEMENT
+Front end
+Visual Basic
+Back end
+MS – Access
+Synopsis
+Develop software that can easily keep records of all library transactions   including issuance and mishandling of books. It can digitalize the entire library management system.
+
+
+
+
+
+PERSONAL DESCRIPTION
+
+Date of Birth: 			20th August 1988
+Gender: 			Female
+Marital Status: 			Single
+Languages Known: 		English (R, W, S), 
+				Hindi (R, W, S)
+Competencies: 			Punctuality, Positive Attitude
+              Dedication to Work, Willingness to Learn
+Interests:		   	Listening Music, Surfing Internet
+
+
+DECLARATION
+
+I hereby declare that all the information stated by me in this resume is true to the best of my knowledge & belief.
+
+
+Date: 										                       Ragini Chaurasia
+
+
+
+
+
+
+
+
+
+
+
+
+
