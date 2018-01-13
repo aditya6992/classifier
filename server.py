@@ -8,8 +8,10 @@ from sklearn import tree
 import numpy as np
 import os
 
-app = Flask(__name__, template_folder="templates")
-classifier = joblib.load("model.pkl")
+dir = os.path.dirname(__file__)
+app = Flask(__name__, template_folder=os.path.join(dir,"templates"))
+classifier = joblib.load(os.path.join(dir, "model.pkl"))
+print "here"
 load_features()
 
 @app.route("/train", methods=["POST"])
@@ -89,6 +91,10 @@ def runInitialTraining():
     trainAndTest()
     return "done"
 
+@app.route("/testtt", methods=["GET"])
+def testtt():
+    return "success"
+
 # User Interface
 @app.route("/", methods=["GET"])
 def render_ui():
@@ -96,4 +102,4 @@ def render_ui():
 
 
 if __name__=="__main__":
-    app.run()
+    app.run(port=5000)

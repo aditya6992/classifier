@@ -7,10 +7,11 @@ from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.externals import joblib
 
+dir = os.path.dirname(__file__)
 word_features = {}
 def load_features():
     all_words = []
-    with open("./features") as f:
+    with open(os.path.join(dir,"features")) as f:
         all_words = f.read().split("\n")
     for i in xrange(len(all_words)):
         word_features[all_words[i]] = i
@@ -114,7 +115,7 @@ def document_vector(wordlist, isResume):
     return vector, yvector
 
 def trainAndTest():
-    resume_directory = "./resumes/"
+    resume_directory = os.path.join(dir,"resumes/")
     files = os.listdir(resume_directory)
     # classifier = linear_model.LogisticRegression(solver="liblinear", multi_class="ovr")
     classifier = RandomForestClassifier()
@@ -139,7 +140,7 @@ def trainAndTest():
     # yvector = yvector.reshape(())
     classifier.fit(vector, yvector)
 
-    with open("./a.test") as f:
+    with open(os.path.join(dir,"a.test")) as f:
         text = f.read()
     wordlist = text_to_wordlist(text)
     X, Y = document_vector(wordlist, True)
