@@ -10,7 +10,7 @@ dir = os.path.dirname(__file__)
 word_features = {}
 
 def load_features():
-    # load features from "features" file, features are simply some keywords in our model
+    """load features from "features" file, features are simply some keywords in our model"""
     all_words = []
     with open(os.path.join(dir,"features")) as f:
         all_words = f.read().split("\n")
@@ -18,7 +18,7 @@ def load_features():
         word_features[all_words[i]] = i
 
 def text_to_wordlist(text, remove_stop_words=False, stem_words=False):
-    # Clean the text, with the option to remove stop_words and to stem words.
+    """Clean the text, with the option to remove stop_words and to stem words."""
 
     # Clean the text
     text = re.sub(r"[^A-Za-z0-9]", " ", text)
@@ -97,8 +97,8 @@ def text_to_wordlist(text, remove_stop_words=False, stem_words=False):
     return(text)
 
 def document_vector(wordlist, isResume):
-    # create a vector from a document, here we are counting the frequency of the features in the document and
-    # creating a vector from that. here yvector is simply the output 0 or 1, 1 = resume, 0 = not resume
+    """create a vector from a document, here we are counting the frequency of the features in the document and
+    creating a vector from that. here yvector is simply the output 0 or 1, 1 = resume, 0 = not resume"""
     n = len(word_features)
     vector = np.zeros((1, n), dtype="int32")
     yvector = np.zeros((1,), dtype="int32")
@@ -114,9 +114,9 @@ def document_vector(wordlist, isResume):
     return vector, yvector
 
 def trainAndTest():
-    # take all files from the resumes directory, create vectors from each of those documents using document_
-    # vector function and stack them vertically ie concatenate vertically, now create a classifier object,
-    # then fit the data on the classifier, now test your ckassifier on a.test doc
+    """take all files from the resumes directory, create vectors from each of those documents using document_
+    vector function and stack them vertically ie concatenate vertically, now create a classifier object,
+    then fit the data on the classifier, now test your ckassifier on a.test doc"""
     resume_directory = os.path.join(dir,"resumes/")
     files = os.listdir(resume_directory)
     # classifier = linear_model.LogisticRegression(solver="liblinear", multi_class="ovr")

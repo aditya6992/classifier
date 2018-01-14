@@ -1,0 +1,51 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module initial_training</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>initial_training</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/adityasista/Desktop/workdir2/upwork_tutor_india/classifier/initial_training.py">/Users/adityasista/Desktop/workdir2/upwork_tutor_india/classifier/initial_training.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="sklearn.externals.joblib.html">sklearn.externals.joblib</a><br>
+<a href="sklearn.linear_model.html">sklearn.linear_model</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+<a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+<a href="sklearn.tree.html">sklearn.tree</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-document_vector"><strong>document_vector</strong></a>(wordlist, isResume)</dt><dd><tt>create&nbsp;a&nbsp;vector&nbsp;from&nbsp;a&nbsp;document,&nbsp;here&nbsp;we&nbsp;are&nbsp;counting&nbsp;the&nbsp;frequency&nbsp;of&nbsp;the&nbsp;features&nbsp;in&nbsp;the&nbsp;document&nbsp;and<br>
+creating&nbsp;a&nbsp;vector&nbsp;from&nbsp;that.&nbsp;here&nbsp;yvector&nbsp;is&nbsp;simply&nbsp;the&nbsp;output&nbsp;0&nbsp;or&nbsp;1,&nbsp;1&nbsp;=&nbsp;resume,&nbsp;0&nbsp;=&nbsp;not&nbsp;resume</tt></dd></dl>
+ <dl><dt><a name="-load_features"><strong>load_features</strong></a>()</dt><dd><tt>load&nbsp;features&nbsp;from&nbsp;"features"&nbsp;file,&nbsp;features&nbsp;are&nbsp;simply&nbsp;some&nbsp;keywords&nbsp;in&nbsp;our&nbsp;model</tt></dd></dl>
+ <dl><dt><a name="-text_to_wordlist"><strong>text_to_wordlist</strong></a>(text, remove_stop_words<font color="#909090">=False</font>, stem_words<font color="#909090">=False</font>)</dt><dd><tt>Clean&nbsp;the&nbsp;text,&nbsp;with&nbsp;the&nbsp;option&nbsp;to&nbsp;remove&nbsp;stop_words&nbsp;and&nbsp;to&nbsp;stem&nbsp;words.</tt></dd></dl>
+ <dl><dt><a name="-trainAndTest"><strong>trainAndTest</strong></a>()</dt><dd><tt>take&nbsp;all&nbsp;files&nbsp;from&nbsp;the&nbsp;resumes&nbsp;directory,&nbsp;create&nbsp;vectors&nbsp;from&nbsp;each&nbsp;of&nbsp;those&nbsp;documents&nbsp;using&nbsp;document_<br>
+vector&nbsp;function&nbsp;and&nbsp;stack&nbsp;them&nbsp;vertically&nbsp;ie&nbsp;concatenate&nbsp;vertically,&nbsp;now&nbsp;create&nbsp;a&nbsp;classifier&nbsp;object,<br>
+then&nbsp;fit&nbsp;the&nbsp;data&nbsp;on&nbsp;the&nbsp;classifier,&nbsp;now&nbsp;test&nbsp;your&nbsp;ckassifier&nbsp;on&nbsp;a.test&nbsp;doc</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>dir</strong> = '.'<br>
+<strong>punctuation</strong> = '!"#$%&amp;<font color="#c040c0">\'</font>()*+,-./:;&lt;=&gt;?@[<font color="#c040c0">\\</font>]^_`{|}~'<br>
+<strong>word_features</strong> = {}</td></tr></table>
+</body></html>

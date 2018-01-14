@@ -1,0 +1,58 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module server</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>server</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/adityasista/Desktop/workdir2/upwork_tutor_india/classifier/server.py">/Users/adityasista/Desktop/workdir2/upwork_tutor_india/classifier/server.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="sklearn.externals.joblib.html">sklearn.externals.joblib</a><br>
+<a href="sklearn.linear_model.html">sklearn.linear_model</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+<a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="sklearn.tree.html">sklearn.tree</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-render_ui"><strong>render_ui</strong></a>()</dt><dd><tt>#&nbsp;User&nbsp;Interface</tt></dd></dl>
+ <dl><dt><a name="-reset"><strong>reset</strong></a>()</dt><dd><tt>reinitializes&nbsp;the&nbsp;classifier&nbsp;model&nbsp;and&nbsp;saves&nbsp;it&nbsp;in&nbsp;model.pkl.&nbsp;Use&nbsp;it&nbsp;with&nbsp;caution&nbsp;and&nbsp;only&nbsp;when&nbsp;the<br>
+model&nbsp;seems&nbsp;to&nbsp;go&nbsp;bad</tt></dd></dl>
+ <dl><dt><a name="-runInitialTraining"><strong>runInitialTraining</strong></a>()</dt><dd><tt>runs&nbsp;initial&nbsp;training&nbsp;script,&nbsp;resets&nbsp;the&nbsp;classifier&nbsp;and&nbsp;runs&nbsp;the&nbsp;training&nbsp;on&nbsp;select&nbsp;few&nbsp;data<br>
+same&nbsp;as&nbsp;reset&nbsp;except&nbsp;you&nbsp;have&nbsp;a&nbsp;basic&nbsp;usable&nbsp;model.</tt></dd></dl>
+ <dl><dt><a name="-test"><strong>test</strong></a>()</dt><dd><tt>test&nbsp;resume&nbsp;post&nbsp;request,&nbsp;takes&nbsp;the&nbsp;text&nbsp;from&nbsp;the&nbsp;request&nbsp;and&nbsp;tests&nbsp;if&nbsp;its&nbsp;a&nbsp;resume&nbsp;against&nbsp;the&nbsp;<br>
+existing&nbsp;classifier&nbsp;model.&nbsp;Sends&nbsp;"yes"&nbsp;or&nbsp;"no"&nbsp;as&nbsp;output&nbsp;response.</tt></dd></dl>
+ <dl><dt><a name="-train"><strong>train</strong></a>()</dt><dd><tt>training&nbsp;script&nbsp;post&nbsp;request,&nbsp;takes&nbsp;the&nbsp;text&nbsp;from&nbsp;the&nbsp;request&nbsp;and&nbsp;stores&nbsp;it&nbsp;in&nbsp;new_resumes&nbsp;directory<br>
+if&nbsp;the&nbsp;parameter&nbsp;isResume&nbsp;is&nbsp;false,&nbsp;the&nbsp;name&nbsp;is&nbsp;appended&nbsp;with&nbsp;.neg&nbsp;while&nbsp;storing&nbsp;it&nbsp;to&nbsp;denote&nbsp;that<br>
+its&nbsp;not&nbsp;a&nbsp;resume.&nbsp;Later&nbsp;when&nbsp;there&nbsp;is&nbsp;atleast&nbsp;one&nbsp;example&nbsp;of&nbsp;a&nbsp;positive&nbsp;and&nbsp;a&nbsp;negetive&nbsp;data&nbsp;point<br>
+in&nbsp;the&nbsp;directory,&nbsp;the&nbsp;training&nbsp;is&nbsp;commenced.&nbsp;Training&nbsp;takes&nbsp;hardly&nbsp;a&nbsp;second&nbsp;since&nbsp;there&nbsp;usually&nbsp;are<br>
+very&nbsp;few&nbsp;examples.&nbsp;Response&nbsp;is&nbsp;sent&nbsp;as&nbsp;"success".</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>app</strong> = &lt;Flask 'server'&gt;<br>
+<strong>classifier</strong> = RandomForestClassifier(bootstrap=True, class_wei...te=None, verbose=0,
+            warm_start=False)<br>
+<strong>dir</strong> = '.'<br>
+<strong>request</strong> = &lt;LocalProxy unbound&gt;<br>
+<strong>word_features</strong> = {'ACHIEVEMENTS': 15, 'AWARDS': 17, 'Achievements': 14, 'Awards': 16, 'CAREER': 1, 'COMPETENCIES': 13, 'CURRICULUM VITAE': 22, 'CV': 21, 'Career': 0, 'Competencies': 12, ...}</td></tr></table>
+</body></html>

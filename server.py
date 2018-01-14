@@ -15,11 +15,12 @@ load_features()
 
 @app.route("/train", methods=["POST"])
 def train():
-    # training script post request, takes the text from the request and stores it in new_resumes directory
-    # if the parameter isResume is false, the name is appended with .neg while storing it to denote that
-    # its not a resume. Later when there is atleast one example of a positive and a negetive data point
-    # in the directory, the training is commenced. Training takes hardly a second since there usually are
-    # very few examples. Response is sent as "success". 
+    """training script post request, takes the text from the request and stores it in new_resumes directory
+    if the parameter isResume is false, the name is appended with .neg while storing it to denote that
+    its not a resume. Later when there is atleast one example of a positive and a negetive data point
+    in the directory, the training is commenced. Training takes hardly a second since there usually are
+    very few examples. Response is sent as "success"."""
+
     form = request.form
     resume_directory = "./new_resumes/"
     files = os.listdir(resume_directory)
@@ -72,8 +73,8 @@ def train():
 
 @app.route("/test", methods=["POST"])
 def test():
-    # test resume post request, takes the text from the request and tests if its a resume against the 
-    # existing classifier model. Sends "yes" or "no" as output response.
+    """test resume post request, takes the text from the request and tests if its a resume against the 
+    existing classifier model. Sends "yes" or "no" as output response."""
     form = request.form
     text = form["Text"]
     wordlist = text_to_wordlist(text)
@@ -86,8 +87,8 @@ def test():
 
 @app.route("/reset", methods=["GET"])
 def reset():
-    # reinitializes the classifier model and saves it in model.pkl. Use it with caution and only when the
-    # model seems to go bad
+    """reinitializes the classifier model and saves it in model.pkl. Use it with caution and only when the
+    model seems to go bad"""
     classifier = RandomForestClassifier()
     joblib.dump(classifier, "model.pkl")
     load_features()
@@ -95,8 +96,8 @@ def reset():
 
 @app.route("/RunInitialTraining", methods=["GET"])
 def runInitialTraining():
-    # runs initial training script, resets the classifier and runs the training on select few data
-    # same as reset except you have a basic usable model.
+    """runs initial training script, resets the classifier and runs the training on select few data
+    same as reset except you have a basic usable model."""
     trainAndTest()
     return "done"
 
