@@ -20,7 +20,7 @@ def train():
     its not a resume. Later when there is atleast one example of a positive and a negetive data point
     in the directory, the training is commenced. Training takes hardly a second since there usually are
     very few examples. Response is sent as "success"."""
-
+    global classifier
     form = request.form
     resume_directory = "./new_resumes/"
     files = os.listdir(resume_directory)
@@ -49,7 +49,7 @@ def train():
         n = len(word_features)
         vector = np.zeros((1, n), dtype="int32")
         yvector = np.zeros((1,), dtype="int32")
-        classifier = RandomForestClassifier()
+        # classifier = RandomForestClassifier()
 
         for file in files:
             if file.split(".")[-1] == "txt":
@@ -64,7 +64,10 @@ def train():
                 vector = np.concatenate((vector, X), axis=0)
                 yvector = np.concatenate((yvector, Y), axis=0)
 
+		os.remove(resume_directory + file)
+
         classifier.fit(vector, yvector)
+	print vector, yvector
         joblib.dump(classifier, "model.pkl")
         return "success"
 
@@ -89,6 +92,7 @@ def test():
 def reset():
     """reinitializes the classifier model and saves it in model.pkl. Use it with caution and only when the
     model seems to go bad"""
+    global classifier
     classifier = RandomForestClassifier()
     joblib.dump(classifier, "model.pkl")
     load_features()
