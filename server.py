@@ -64,7 +64,7 @@ def train():
                 vector = np.concatenate((vector, X), axis=0)
                 yvector = np.concatenate((yvector, Y), axis=0)
 
-		os.remove(resume_directory + file)
+		# os.remove(resume_directory + file)
 
         classifier.fit(vector, yvector)
 	print vector, yvector
@@ -102,7 +102,9 @@ def reset():
 def runInitialTraining():
     """runs initial training script, resets the classifier and runs the training on select few data
     same as reset except you have a basic usable model."""
+    global classifier
     trainAndTest()
+    classifier = joblib.load(os.path.join(dir, "model.pkl"))
     return "done"
 
 # User Interface
